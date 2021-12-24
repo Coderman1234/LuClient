@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hud>
+  <asset_path>
+
+  </asset_path>
+
+  <regions>
+
+    <region name="friendsList">
+      <placement>
+        <top>185</top>
+		<left>40</left>
+      </placement>
+    </region>
+
+    <region name="genericText">
+      <placement>
+        <center/>
+        <top>220</top>
+      </placement>
+    </region>
+
+    <region name="actionbar">
+      <placement>
+        <center/>
+        <bottom>-30</bottom>
+      </placement>
+    </region>
+    <region name="dialog">
+      <placement>
+        <center/>
+        <middle/>
+      </placement>
+    </region>
+    <region name="options">
+      <placement>
+        <center/>
+        <top>20%</top>
+      </placement>
+    </region>
+    <region name="playerStatus">
+      <placement>
+        <left/>
+        <top/>
+      </placement>
+    </region>
+	<region name="racerPositions">
+	  <placement>
+	    <left>30</left>
+		<top>130</top>
+	  </placement>
+	</region>
+    <region name="teamStatus">
+      <placement>
+        <left>5</left>
+        <top>155</top>
+      </placement>
+    </region>    
+    <region name="teamStatusInput">
+      <placement>
+        <left>33</left>
+        <top>215</top>
+      </placement>
+    </region>    
+    <region name="bigImagination">
+      <placement>
+        <center />
+        <top>60</top>
+      </placement>
+    </region>
+    <region name="petNaming">
+      <placement>
+        <center />
+        <top>100</top>
+      </placement>
+    </region>
+    <region name="petTaming">
+      <placement>
+        <center />
+        <top>10</top>
+      </placement>
+    </region>
+    <region name="brickbag">
+      <placement>
+        <right>20</right>
+        <bottom>70</bottom>
+      </placement>
+    </region>
+    <region name="backpack">
+      <placement>
+        <right>305</right>
+        <bottom>436</bottom>
+      </placement>
+    </region>
+    <region name="PropertyEditActionBar">
+      <placement>
+        <center/>
+        <bottom>-170</bottom>
+      </placement>
+    </region>
+    <region name="PropertyEditExit">
+      <placement>
+        <right>-15</right>
+        <top>-25</top>
+      </placement>
+    </region>
+	<region name="TaskHeaderTopRight">
+		<placement>
+			<right>90</right>
+			<top>80</top>
+		</placement>
+	</region>
+	<region name="TaskHeaderTopCenter">
+		<placement>
+			<center/>
+			<top>-25</top>
+		</placement>
+	</region>
+	<region name="LeaderboardRightTop">
+		<placement>
+			<left>30%</left>
+			<top/>
+		</placement>
+	</region>
+	<region name="ProgressBarLeftMiddle">
+		<placement>
+			<left>20%</left>
+			<middle/>
+		</placement>
+	</region>
+    <region name="vendor">
+      <placement>
+        <right>285</right>
+        <top>160</top>
+      </placement>
+    </region>
+	<region name="MinimapDuringInstance">
+      <placement>
+        <right/>
+        <top>42</top>
+      </placement>
+    </region>
+	<region name="TaskHeaderMinimapOpen">
+      <placement>
+        <right>90</right>
+		<top>190</top>
+      </placement>
+    </region>
+	<region name="TaskHeaderMinimapClosed">
+      <placement>
+        <right>90</right>
+		<top>50</top>
+      </placement>
+    </region>
+    <region name="topLeft">
+      <placement>
+        <left/>
+        <top/>
+      </placement>
+    </region>
+    <region name="topCenter">
+      <placement>
+        <center/>
+        <top/>
+      </placement>
+    </region>
+    <region name="topRight">
+      <placement>
+        <right/>
+        <top/>
+      </placement>
+    </region>
+    <region name="centerLeft">
+      <placement>
+        <left/>
+        <middle/>
+      </placement>
+    </region>
+    <region name="centerRight">
+      <placement>
+        <right/>
+        <center/>
+      </placement>
+    </region>
+    <region name="bottomLeft">
+      <placement>
+        <left/>
+        <bottom/>
+      </placement>
+    </region>
+    <region name="bottomCenter">
+      <placement>
+        <center/>
+        <bottom/>
+      </placement>
+    </region>
+    <region name="bottomRight">
+      <placement>
+        <right/>
+        <bottom/>
+      </placement>
+    </region>
+    <region name="dockRegion">
+      <placement>
+        <right>312</right>
+        <bottom>80</bottom>
+      </placement>
+    </region>
+    <region name="dock">
+      <placement>
+        <center/>
+        <bottom/>
+      </placement>
+    </region>
+    <region name="GuildAndFriends">
+      <placement>
+        <left>0</left>
+        <bottom>335</bottom>
+      </placement>
+    </region>
+    <region name="chatbox">
+      <placement>
+        <left>8</left>
+        <bottom>0</bottom>
+      </placement>
+    </region>
+    <region name="TutorialPopups">
+      <placement>
+        <center/>
+        <top>25%</top>
+      </placement>
+    </region>
+    <region name="ActivityScoreboard">
+      <placement>
+        <center />
+        <top>50</top>
+      </placement>
+    </region>
+    <region name="ActivityScoreboardSmall">
+      <placement>
+        <center />
+        <top>15</top>
+      </placement>
+    </region>
+    <region name="BobTooltip">
+      <placement>
+        <center/>
+        <top>15%</top>
+      </placement>
+    </region>
+    <region name="SuperChargRegion">
+      <placement>
+        <center/>
+        <bottom>2%</bottom>
+      </placement>
+    </region>
+
+    <region name="RaceBoost">
+      <placement>
+        <center/>
+        <bottom>3%</bottom>
+      </placement>
+    </region>
+    
+    <region name="SiegeButton">
+          <placement>
+            <center/>
+            <bottom>12%</bottom>
+          </placement>
+    </region>
+    
+    <region name="budgetMeter">
+        <placement>
+            <top/>
+          <right>100</right>
+        </placement>
+    </region>
+
+    <region name="bbbUndoRedo">
+      <placement>
+        <center/>
+        <top/>
+      </placement>
+    </region>
+	
+	<region name="propertyGroupControls">
+		<placement>
+			<top>160</top>
+			<left>20</left>
+		</placement>
+	</region>
+    
+     <region name="behaviorEditor">
+        <placement>
+          <center/>
+          <top>100</top>
+        </placement>
+    </region>
+        
+	<region name="bank">
+      <placement>
+        <left>10</left>
+        <bottom>695</bottom>
+      </placement>
+    </region>
+
+    <region name="FreeTrialStatus">
+      <placement>
+        <right/>
+        <top>40</top>
+      </placement>
+    </region>
+
+    <region name="buffIndicator">
+      <placement>
+        <right>545</right>
+        <middle>-265</middle>
+      </placement>
+    </region>
+    
+    <!--
+    <region name="playerStatus">
+      <placement>
+        <left/>
+        <top/>
+      </placement>
+    </region>
+    <region name="dock">
+      <placement>
+        <center/>
+        <bottom/>
+      </placement>
+    </region>
+    <region name="leftSide">
+      <placement>
+        <left/>
+        <middle/>
+      </placement>
+      <layout >
+        <height>30%</height>
+        <align>left</align>
+        <verticalAlign>top</verticalAlign>
+        <flow>
+          <direction>right</direction>
+          <overlap>5%</overlap>
+        </flow>
+      </layout>
+    </region>
+    <region name="tasks">
+      <placement>
+        <center/>
+        <top/>
+      </placement>
+    </region>
+
+
+    -->
+
+
+    <!-- Custom Build UI Regions -->
+    <region name="moduleSelectionWindow">
+      <placement>
+        <right>5%</right>
+        <middle>-10%</middle>
+      </placement>
+    </region>
+    <region name="controlButtons">
+      <placement>
+        <center/>
+        <bottom>15%</bottom>
+      </placement>
+    </region>
+
+    <region name="bbbClose">
+      <placement>
+        <top>16</top>
+        <right>32</right>
+      </placement>
+    </region>
+    <region name="bbbColorPicker">
+      <placement>
+        <top>140</top>
+        <right>46</right>
+      </placement>
+    </region>
+	
+	<region name="modularBuildPartsList">
+		<placement>
+			<top>135</top>
+			<left>5</left>
+		</placement>
+	</region>
+	
+	<region name="FreeTrialHUDButton">
+		<placement>
+			<right/>
+			<top>190</top>
+		</placement>
+	</region>
+
+  <region name="WeaponCount">
+      <placement>
+        <right>170</right>
+        <bottom>400</bottom>
+      </placement>
+  </region>
+
+  </regions>
+  
+  <interactionGameStates>
+    <gameStates>
+      <gameState>vendor</gameState>
+      <gameState>DonationVendor</gameState>
+      <gameState>Keymap</gameState>
+      <gameState>Mail</gameState>
+      <gameState>UniverseMap</gameState>
+      <gameState>News</gameState>
+      <gameState>zoneSummaryScreens</gameState>
+      <gameState>TimedRaceLeaderboard</gameState>
+      <gameState>property_menu</gameState>
+      <gameState>multizone_menu</gameState>
+      <gameState>Credits</gameState>
+      <gameState>mission</gameState>
+      <gameState>Lobby</gameState>
+      <gameState>Story</gameState>
+      <gameState>PropertyManager</gameState>
+	  <gameState>CommunityMissionLeaderBoard</gameState>
+	  <gameState>bank</gameState>
+    </gameStates>
+  </interactionGameStates>
+  
+  <nonInteractionGameStates>
+	<gameStates>
+		<gameState>Keymap</gameState>
+		<gameState>UniverseMap</gameState>
+		<gameState>News</gameState>
+		<gameState>Credits</gameState>
+	</gameStates>
+  </nonInteractionGameStates>
+  
+  <widgets>
+    <!-- Front-end exclusive widgets -->
+    <!--<widget name="IntroCinematic" region="topLeft">
+      <asset>..\frontend\IntroCinematicLoader</asset>
+      <dontCache/>
+      <gameStates>
+                <gameState>front_end</gameState>
+      </gameStates>
+    </widget>-->
+        
+
+    <!-- Gameplay exclusive widgets -->
+
+    <widget name="UniverseMap" region="topLeft" type="background">  
+      <asset>UniverseMap</asset>
+      <ignoreDimensions/>      
+      <gameStates>            
+        <gameState>UniverseMap</gameState>      
+      </gameStates>
+    </widget>
+    <widget name="OpenDock" region="dockRegion">
+      <asset>OpenDock</asset>
+      <ignoreDimensions/>
+      <exclude>true</exclude>
+      <gameStates>
+        <gameState>front_end</gameState>
+        <gameState>CharacterSelect</gameState>
+        <gameState>CharacterCreate</gameState>
+      </gameStates>
+    </widget>
+	<widget name="FreeTrialTooltip" region="dialog" type="modalWindow">
+      <asset>FreeTrialTooltip</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="FreeTrialStatus" region="FreeTrialStatus" type="modalWindow">
+      <asset>FreeTrialStatus</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="FreeTrialJoin" region="topLeft" type="modalWindow">
+      <asset>FreeTrialJoin</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+	<widget name="FreeTrialCallToAction" region="topLeft" type="modalWindow">
+      <asset>FreeTrialCallToAction</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="FreeTrialCongratulations" region="topLeft" type="modalWindow">
+      <asset>FreeTrialCongratulations</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+	<widget name="FreeTrialHUDButton" region="FreeTrialHUDButton" type="background">
+      <asset>FreeTrialHUDButton</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+		<gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>
+		<gameState>cinematic</gameState>
+		<gameState>zoneSummaryScreens</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="FreeTrialRegistration" region="dialog" type="modalWindow">
+      <asset>FreeTrialRegistration</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="DarkitectFlashes" region="dialog" type="window">
+      <asset>DarkitectFlashes</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Celebration</gameState>        
+      </gameStates>
+    </widget>    
+    <widget name="TextFieldManager" region="dialog" type="temporaryOnTop">
+      <asset>TextFieldManager</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>   
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>boss</gameState>        
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>shootinggallery</gameState>
+        <gameState>Race</gameState>
+        <gameState>racingSummary</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>TamingMinigame</gameState> 
+        <gameState>Lobby</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="TooltipRollover" region="topLeft" type="temporaryOnTop">
+      <asset>TooltipRollover</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ItemRollover" region="dialog" type="temporaryOnTop">
+      <asset>ItemRollover</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>   
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>boss</gameState>        
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>News</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <!--NOTE: BrickPullout needs to be higher in the file than any widget that wants to use it (inventory, bank, vendor)-->
+	<widget name="BrickPullout" region="dialog" type="window">
+      <asset>BrickPullout</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>  
+        <gameState>SurvivalLeaderboard</gameState>  
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>boss</gameState>        
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState> 
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>    
+    <widget name="InstanceRewards" region="topCenter">
+      <asset>InstanceRewards</asset>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Announce" region="dialog" type="modalWindow">
+      <asset>Announce</asset>
+      <ignoreDimensions/>      
+      <gameStates>
+        <!-- announcements need to occur in ALL gamestates-->
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ActivityCloseButton" region="topRight">
+      <asset>ActivityClose</asset>
+      <loadOnToggle>true</loadOnToggle>
+	  <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>Race</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>    
+    <widget name="ZoneSummary" region="topLeft" type="window">
+      <asset>ZoneSummary</asset>      
+      <gameStates>
+        <gameState>zoneSummaryScreens</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="CinematicBars" region="topLeft">
+      <asset>CinematicBars</asset>
+      <gameStates>
+        <gameState>cinematic</gameState>
+        <gameState>Instance_Loading</gameState>
+      </gameStates>
+    </widget>
+    <widget name="LoadingScreen" region="topLeft" type="loadingScreen">
+      <asset>..\FrontEnd\LoadingScreen</asset>
+      <ignoreDimensions/>
+      <gameStates>
+          <gameState>loading</gameState>
+      </gameStates>
+    </widget>
+    <widget name="StatusBar" region="playerStatus">
+      <asset>StatusBar</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>statusOnly</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>activity_rewards</gameState> 
+        <gameState>mission</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="TeamStatus" region="teamStatus">
+      <asset>TeamStatus</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>statusOnly</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>mission</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>        
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <!-- TeamTextInput gamestates must match TeamStatus, I needed this asset to recieve enter and escape imput-->
+    <widget name="TeamTextInput" region="teamStatusInput" type="window">
+      <asset>TeamTextInput</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>statusOnly</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>mission</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>        
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <!-- TeamOptions gamestates must match TeamStatus-->
+    <widget name="TeamOptions" region="dialog" type="window">
+      <asset>TeamOptions</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>statusOnly</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>mission</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>        
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="EnemyStatusBar" region="topCenter">
+      <asset>EnemyStatusBar</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>        
+      </gameStates>
+    </widget>    
+    <widget name="Minimap" region="topRight">
+      <asset>Minimap</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Siege</gameState>
+		<gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Leaderboard" region="topLeft" type="window">
+      <asset>Leaderboard</asset>
+      <!--<loadOnToggle>true</loadOnToggle>-->
+      <gameStates>
+        <!-- There are some nasty edge cases since the Foot Race is an activity that exists during gameplay.
+             Basically, the UI interaction gamestates can block the widget from getting its necessary messages.
+             So this widget needs to exist in all of the UI interaction gamestates but go dormant-->
+        <gameState>Keymap</gameState>
+        <gameState>UniverseMap</gameState>
+        <gameState>News</gameState>
+        <gameState>Credits</gameState>
+		<gameState>Lobby</gameState>
+        <!-- end UI interaction states -->
+        <gameState>gameplay</gameState> 
+        <gameState>Survival</gameState> 
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>Siege</gameState> 
+        <gameState>Race</gameState> 
+        <gameState>racingSummary</gameState> 
+        <gameState>shootinggallery</gameState> 
+        <gameState>activity_rewards</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>
+	<widget name="CommunityProgressBar" region="ProgressBarLeftMiddle" type="window">
+		<asset>CommunityProgressBar</asset>
+		<gameStates>
+			<gameState>CommunityMissionLeaderboard</gameState> 
+		</gameStates>
+	</widget>
+    <widget name="FramerateWarning" region="dialog" type="window">
+      <asset>FramerateWarning</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Race</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>Survival</gameState>
+        <gameState>Siege</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyDeleteConfirm" region="dialog" type="window">
+      <asset>PropertyDeleteConfirm</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditHudActionBar" region="PropertyEditActionBar">
+      <asset>PropertyEditHudActionBar</asset>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditExit" region="PropertyEditExit">
+      <asset>PropertyEditExit</asset>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditBehaviorControl" region="topLeft">
+      <asset>PropertyEditBehaviorControl</asset>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditTitleBar" region="topRight">
+      <asset>PropertyEditTitleBar</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditCamera" region="topLeft">
+      <asset>PropertyEditCamera</asset>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditControls" region="topCenter">
+      <asset>PropertyEditControls</asset>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+	<widget name="PropertyEditGroupControls" region="propertyGroupControls">
+      <asset>PropertyEditGroupControls</asset>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PerformanceWarningSelf" region="topCenter">
+      <asset>PerformanceWarningSelf</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PerformanceWarningOther" region="topRight">
+      <asset>PerformanceWarningOther</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditDescriptions" region="topLeft" type="window">
+      <asset>PropertyEditDescriptions</asset>
+      <gameStates>
+        <gameState>property_editing</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyEditColorPicker" region="bbbColorPicker">
+      <asset>PropertyEditColorPicker</asset>
+      <gameStates>
+        <gameState>building</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ProgressToolTip" region="topLeft" type="temporaryOnTop">
+      <asset>ProgressTip</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState> 
+        <gameState>Siege</gameState>
+        <gameState>boss</gameState>
+        <gameState>Lobby</gameState>
+        <gameState>Mail</gameState>
+	    <gameState>building</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>Race</gameState> 
+        <gameState>racingSummary</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>property_menu</gameState>    
+		<gameState>bank</gameState>    
+      </gameStates>
+    </widget>    
+    <widget name="ModBuildConfirm" region="topRight" type="window">
+      <asset>ModBuildConfirm</asset>
+      <loadOnToggle>true</loadOnToggle>
+        <gameStates>
+            <gameState>gameplay</gameState>
+            <gameState>modular_building</gameState>
+        </gameStates>
+    </widget>
+	<widget name="ModularBuildPartsList" region="modularBuildPartsList" type="window">
+		<asset>ModularBuildPartsList</asset>
+		<gameStates>
+			<gameState>modular_building</gameState>
+		</gameStates>
+	</widget>
+    <widget name="FriendsTab" region="friendsList" type="window">
+      <asset>Friends</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>Siege</gameState>
+        <gameState>boss</gameState>
+        <gameState>Mail</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>    
+    <widget name="FriendsInvite" region="friendList" type="window">
+      <asset>FriendsInvite</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>Mail</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="GuildCreate" region="dialog" type="window">
+      <asset>GuildCreate</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+        <gameState>Mail</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Guild" region="dialog" type="window">
+      <asset>Guild</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+        <gameState>Mail</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="TeamInvite" region="friendList" type="window">
+      <asset>TeamInvite</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>  
+		<gameState>bank</gameState>      
+      </gameStates>
+    </widget>
+    <widget name="Mail" region="dialog" type="window">
+      <asset>mail</asset>
+      <ignoreDimensions/>
+      <gameStates>          
+        <gameState>Mail</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MailNotification" region="bottomRight" type="temporaryOnTop">
+      <asset>MailNotification</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>           
+        <gameState>Mail</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ChatBox" region="chatbox" type="window">
+      <asset>chatbox</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>   
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>Race</gameState>
+        <gameState>racingSummary</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>TamingMinigame</gameState> 
+        <gameState>boss</gameState>
+        <gameState>Lobby</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="DropDownMenu" region="topLeft" type="window">
+      <asset>ddMenu</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Mail</gameState>
+        <gameState>Survival</gameState>
+		<gameState>SurvivalLeaderboard</gameState> 
+        <gameState>BattleWaves</gameState>
+		<gameState>vendor</gameState>
+		<gameState>DonationVendor</gameState>		
+		<gameState>property_editing</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>        
+      </gameStates>
+    </widget>
+     <widget name="InspectPlayer" region="BobTooltip" type="window">
+      <asset>InspectPlayer</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyRentalConfirm" region="dialog" type="window">
+      <asset>rentalconfirm</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyNavigator" region="topCenter" type="window">
+      <asset>PropertyNavigator</asset>
+      <ignoreDimensions/>      
+      <gameStates>
+        <gameState>property_menu</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MultiZoneNavigator" region="topCenter" type="window">
+      <asset>MultiZoneNavigator</asset>
+      <ignoreDimensions/>
+      <loadOnToggle>false</loadOnToggle>
+      <gameStates>
+        <gameState>multizone_menu</gameState>
+      </gameStates>
+    </widget>
+        <widget name="PropertyDetails" region="dialog" type="modalWindow">
+      <asset>PropertyDetails</asset>        
+      <ignoreDimensions/>  
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>      
+      <gameState>property_menu</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MultiZoneDetails" region="topLeft" type="window">
+      <asset>MultiZoneDetails</asset>        
+      <ignoreDimensions/>  
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+      <gameState>multizone_menu</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyVendor" region="dialog" type="window">
+      <asset>PropertyVendor</asset>        
+      <ignoreDimensions/>  
+      <!-- <loadOnToggle>true</loadOnToggle> -->
+      <gameStates>
+      <gameState>gameplay</gameState>      
+      </gameStates>
+    </widget>
+    <widget name="PropertyManagement" region="dialog" type="window">
+      <asset>PropertyManagement</asset>
+	<ignoreDimensions/>
+      <gameStates>
+        <gameState>PropertyManager</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PropertyVoting" region="dialog" type="window">
+      <asset>PropertyVoting</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PetNaming" region="petNaming" type="window">
+      <asset>PetName</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <ignoreDimensions />
+      <gameStates>
+        <gameState>TamingMinigame</gameState>
+	    <gameState>PetNaming</gameState>
+	    <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PetTaming" region="petTaming" type="window">
+      <asset>PetTaming</asset>
+      <dontCache/>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>TamingMinigame</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PetTamingActions" region="topRight" type="window">
+      <asset>PetTamingActions</asset>
+      <dontCache/>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>TamingMinigame</gameState>
+      </gameStates>
+    </widget>
+    <widget name="PetMenu" region="topLeft" type="window">
+      <asset>PetMenu</asset>
+      <ignoreDimensions/>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+        <gameState>TamingMinigame</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="VendorWindow" region="vendor" type="window">
+      <asset>VendorWindow</asset>
+      <ignoreDimensions/>
+      <gameStates>       
+        <gameState>vendor</gameState>
+      </gameStates>      
+    </widget>
+     <widget name="VendorConfirmation" region="topLeft" type="modalWindow">
+      <asset>VendorConfirmation</asset>
+      <gameStates>
+        <gameState>vendor</gameState>
+      </gameStates>      
+    </widget>
+    <widget name="DonationVendor" region="vendor" type="window">
+      <asset>DonationVendor</asset>
+      <gameStates>       
+        <gameState>DonationVendor</gameState>
+      </gameStates>      
+    </widget>
+    <widget name="Trade" region="dialog" type="window">
+      <asset>Trade</asset>
+      <!-- <loadOnToggle>true</loadOnToggle> -->
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Tooltip" region="BobTooltip" type="temporaryOnTop">
+      <asset>Tooltip</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>modular_building</gameState>        
+        <gameState>TamingMinigame</gameState>
+        <gameState>property_menu</gameState>
+        <gameState>mission</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>boss</gameState>
+        <gameState>Lobby</gameState>
+        <gameState>Mail</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+        <gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ItemBinding" region="dialog" type="window">
+      <asset>ItemBinding</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>   
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>        
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>    
+    <widget name="FootRace" region="dialog" type="modalWindow">
+      <asset>FootRace</asset>
+      <ignoreDimensions/>      
+      <gameStates>        
+        <gameState>gameplay</gameState>    
+        <gameState>boss</gameState>
+      </gameStates>
+    </widget>
+    <widget name="FootRaceScoreboard" region="topCenter">
+      <asset>FootRaceScoreboard</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <!-- There are some nasty edge cases since this is an activity that exists during gameplay.
+             Basically, the UI interaction gamestates can block the widget from getting its necessary messages.
+             So this widget needs to exist in all of the UI interaction gamestates but go dormant-->
+        <gameState>gameplay</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+        <gameState>Keymap</gameState>
+        <gameState>UniverseMap</gameState>
+        <gameState>News</gameState>
+        <gameState>Credits</gameState>
+        <gameState>Mail</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>Vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>property_menu</gameState>
+        <gameState>property_editing</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Passport" region="dialog" type="window">
+      <asset>passport</asset>
+      <ignoreDimensions/>
+      <!-- <loadOnToggle>false</loadOnToggle> -->
+      <!-- MissionDisplay needs to be keep kept in sync with the passport -->
+      <gameStates>       
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>Siege</gameState>       
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>activity_rewards</gameState>         
+        <gameState>boss</gameState>
+        <gameState>UniverseMap</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+      <params>
+        <title>Passport</title>
+        <width>500</width>
+        <height>430</height>
+        <size>120</size>
+        <visible>false</visible>
+      </params>
+    </widget>     
+     <widget name="Credits" region="topCenter" type="background">
+       <asset>credits</asset>
+       <ignoreDimensions/>
+       <gameStates>        
+        <gameState>Credits</gameState>
+       </gameStates>
+    </widget>
+    <widget name="OptionsMenu" region="options" type="window">
+      <asset>OptionsMenu</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>        
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>TamingMinigame</gameState>
+        <gameState>boss</gameState>        
+        <gameState>Instance_Loading</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+	<!--HelpReportDialog states need to match HelpMenu gamestates-->
+    <widget name="HelpMenu" region="dialog" type="window">
+      <asset>HelpMenu</asset>
+      <gameStates>
+ 		<gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>        
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState>   
+		<gameState>CommunityMissionLeaderboard</gameState>      
+        <gameState>WaveUI</gameState>
+        <gameState>TamingMinigame</gameState>        
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+	<!--HelpReportDialog states need to match HelpMenu gamestates-->
+    <widget name="HelpReportDialog" region="BobTooltip" type="modalWindow">
+      <asset>HelpReportDialog</asset>
+      <ignoreDimensions />
+      <gameStates>
+ 		<gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>        
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>        
+        <gameState>SurvivalLeaderboard</gameState>   
+		<gameState>CommunityMissionLeaderboard</gameState>      
+        <gameState>WaveUI</gameState>
+        <gameState>TamingMinigame</gameState>        
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+	
+	<widget name="Keymap" region="topLeft" type="window">
+		<asset>Keymap</asset>
+		<ignoreDimensions />
+		<gameStates>
+			<gameState>Keymap</gameState>
+		</gameStates>
+	</widget>
+
+    <widget name="RespawnDialog" region="dialog" type="window">
+      <asset>RespawnDialog</asset>
+      <!-- should exist for all gamestates except the front end -->
+      <ignoreDimensions/>
+          <loadOnToggle>true</loadOnToggle>          
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>mission</gameState> 
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Race</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>TamingMinigame</gameState>
+        <gameState>boss</gameState>
+        <gameState>Lobby</gameState>
+        <gameState>UniverseMap</gameState>
+        <gameState>Instance_Loading</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>happyflower</gameState>
+        <gameState>ChoiceQuickBuild</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>statusOnly</gameState>
+        <gameState>cinematic</gameState>
+        <gameState>zoneSummaryScreens</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+	    <gameState>News</gameState>
+        <gameState>TimedRaceLeaderboard</gameState>
+	    <gameState>Keymap</gameState>
+        <gameState>Story</gameState>
+        <gameState>PropertyManager</gameState>
+        <gameState>Credits</gameState>
+        <gameState>BattleWaves</gameState>
+        <gameState>Celebration</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+   </widget>
+    <widget name="FactionMission" region="topLeft" type="window">
+      <asset>FactionMission</asset>
+      <ignoreDimensions/>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>        
+        <gameState>mission</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="KitMission" region="topLeft" type="window">
+      <asset>KitMission</asset>
+      <ignoreDimensions/>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>        
+        <gameState>mission</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="MissionWindow" region="dialog" type="window">
+      <asset>Mission</asset>
+      <ignoreDimensions/>
+      <!-- <loadOnToggle>true</loadOnToggle> -->
+      <gameStates>
+        <gameState>statusOnly</gameState>        
+        <gameState>mission</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MissionDisplay" region="dialog" type="window">
+      <asset>MissionDisplay</asset>
+      <!-- <loadOnToggle>true</loadOnToggle> widget animator has an edge case with load on toggle widgets that can make them stop working -->
+      <!-- MissionDisplay needs to exist in all gamestates that the passport or Mission Task Header exist-->
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>property_editing</gameState>        
+        <gameState>Survival</gameState>
+        <gameState>boss</gameState>        
+        <gameState>UniverseMap</gameState>
+		<gameState>Race</gameState>           
+        <gameState>BattleWaves</gameState>       
+        <gameState>modular_building</gameState>
+		<gameState>shootinggallery</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MissionTaskHeader" region="topCenter"  type="background">
+      <asset>MissionTaskHeader</asset>
+      <ignoreDimensions/>           
+      <gameStates>
+        <gameState>gameplay</gameState>     
+		<gameState>Race</gameState>       
+        <gameState>Survival</gameState>       
+        <gameState>BattleWaves</gameState>       
+        <gameState>modular_building</gameState>
+		<gameState>shootinggallery</gameState>
+		<gameState>property_editing</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MissionCompleteMessage" region="topCenter"  type="background">
+      <asset>MissionCompleteMessage</asset>
+      <ignoreDimensions/>           
+      <gameStates>
+        <gameState>gameplay</gameState>     
+	    <gameState>Survival</gameState>
+        <gameState>property_editing</gameState>  
+        <gameState>building</gameState>   
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="InstanceLoading" region="genericText" type="window">
+      <asset>InstanceLoading</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Instance_Loading</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ActionBar" region="actionbar">
+      <asset>ActionBar</asset>
+      <ignoreDimensions/>
+      <gameStates>
+		<gameState>TamingMinigame</gameState>
+        <gameState>gameplay</gameState>
+        <gameState>Siege</gameState>            
+        <gameState>Survival</gameState>
+		<gameState>SurvivalLeaderboard</gameState> 
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+
+    <!-- The Backpack and LegoBag exist in gameplay and building -->
+    <widget name="Backpack" region="backpack" type="window">
+      <asset>inventory</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>  
+        <gameState>SurvivalLeaderboard</gameState>  
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>boss</gameState>        
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState> 
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+      <params>
+        <width>254</width>
+        <height>346</height>
+        <minWidth>254</minWidth>
+        <minHeight>346</minHeight>
+      </params>
+    </widget>  
+	
+	<widget name="Bank" region="bank" type="window">
+		<asset>bank</asset>
+		<gameStates>
+			<gameState>bank</gameState>
+		</gameStates>
+		 <ignoreDimensions/>
+		<params>
+			<width>670</width>
+			<height>484</height>
+			<minWidth>670</minWidth>
+			<minHeight>484</minHeight>
+		</params>
+	</widget>
+    <!-- 
+    =============================================
+    Tutorial pop ups 
+    =============================================
+    -->   
+    <widget name="ControlsTutorial" region="TutorialPopups">
+      <asset>ControlsTutorials</asset>     
+      <ignoreDimensions/>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+      </gameStates>
+    </widget>    
+     <widget name="GenericTutorial" region="topLeft" type="temporaryOnTop">
+      <asset>UITutorial</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>modular_building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>
+    <!-- 
+    =============================================
+    END tutorial pop ups 
+    =============================================
+    -->
+
+    <!-- BrickByBrick exclusive widgets -->
+    <widget name="BBBCursorHelper" region="topLeft" type="temporaryOnTop">
+      <asset>../BrickByBrick/BBBCursorHelper</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+      </gameStates>
+    </widget>
+    <widget name="BBBSaveMetaData" region="dialog">
+      <asset>../BrickByBrick/BBBSaveMetadata</asset>
+      <gameStates>
+        <gameState>building</gameState>
+      </gameStates>
+    </widget>
+    <widget name="messageBox" region="dialog" type="modalWindow">
+      <asset>../MessageBox</asset>
+      <ignoreDimensions/>
+	  <exclude>true</exclude>
+      <gameStates>
+        <gameState>Celebration</gameState>
+      </gameStates>
+    </widget>
+    <widget name="genericTextField" region="genericText">
+      <asset>../GenericTextField</asset>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>TamingMinigame</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>    
+    <widget name="StoryBox" region="BobTooltip" type="modalWindow">
+      <asset>StoryBox</asset>          
+      <gameStates>
+        <gameState>Story</gameState>          
+      </gameStates>
+    </widget>
+    <widget name="Achievements" region="topLeft" type="window">
+      <asset>Achievements</asset>
+     <gameStates>
+        <gameState>gameplay</gameState>         
+        <gameState>activity_rewards</gameState> 
+        <gameState>Survival</gameState>        
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+
+    </widget>
+    <!-- 
+    =============================================
+    Happy Flower 
+    =============================================
+    -->
+     <widget name="missioneditor" region="dialog" type="window">
+      <asset>missioneditor</asset>
+      <gameStates>
+        <gameState>happyflower</gameState>
+      </gameStates>
+    </widget>
+     <widget name="missioneditorgridbox" region="dialog" type="window">
+      <asset>missioneditorgridbox</asset>
+      <gameStates>
+        <gameState>happyflower</gameState>
+      </gameStates>
+    </widget>
+    <!--
+    <widget name="logoutMenu" region="dialog">
+      <asset>logoutmenu</asset>
+      <displayTrigger type="message">showLogoutMenu</displayTrigger>    
+    -->
+    <!--
+    <widget name="statusbg" region="playerStatus" interactive="false">
+      <asset>statusBG</asset>
+    </widget>
+    -->
+
+    <!-- Choice Quick Build UI Widgets -->
+
+    <widget name="ChoiceBuildWindow" region="dialog">
+      <asset>choicebuild</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ConfirmationBox" region="dialog" type="modalWindow">
+      <asset>confirmationBox</asset>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+    </widget>
+    <widget name="ObjectDebugger" region="topCenter" type="window">
+      <asset>ObjectDebugger</asset>
+      <loadOnToggle>true</loadOnToggle>
+	  <ignoreDimensions />
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+      <params>
+        <width>700</width>
+        <height>600</height>
+      </params>
+    </widget>
+    <widget name="UIDebugger" region="topCenter" type="window">
+      <asset>UIDebugger</asset>
+      <loadOnToggle>true</loadOnToggle>
+	  <ignoreDimensions />
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+      <params>
+        <width>700</width>
+        <height>600</height>
+      </params>
+    </widget>
+    <widget name="TestCaseManager" region="topCenter" type="window">
+      <asset>TestCaseManager</asset>
+      <loadOnToggle>true</loadOnToggle>
+	  <ignoreDimensions />
+      <gameStates>
+        <gameState>ALL</gameState>
+      </gameStates>
+      <params>
+        <width>700</width>
+        <height>600</height>
+      </params>
+    </widget>
+    <!-- Every activity / instance starts with a countdown using flashingText (except racing that has a synced system)
+         It is a very old widget and many people still use it it quickly prototype -->
+    <widget name="FlashingText" region="dialog">
+      <asset>FlashingText</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>shootinggallery</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Race</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+        <gameState>boss</gameState>
+        <gameState>BattleWaves</gameState>
+        <gameState>Lobby</gameState>
+      </gameStates>
+    </widget>
+    <widget name="sg_scoreboard" region="topCenter">
+      <asset>sg_scoreboard</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>shootinggallery</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Scoreboardinfo" region="topCenter" type="window">
+      <asset>Scoreboardinfo</asset>      
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>shootinggallery</gameState>
+        <gameState>activity_rewards</gameState> 
+      </gameStates>
+    </widget>
+     <!-- 
+    =============================================
+    InstanceStart can be used for any instance without a lobby
+    it just so happens that the only instance currently of that type
+    are the shooting galleries
+    =============================================
+    -->
+    <widget name="InstanceStart" region="dialog" type="window">
+      <asset>InstanceStart</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>shootinggallery</gameState>
+      </gameStates>
+    </widget>
+    <widget name="InstanceHelp" region="topLeft" type="window">
+      <asset>InstanceHelp</asset>
+	  <ignoreDimensions/>
+      <gameStates>
+        <gameState>shootinggallery</gameState>
+        <gameState>Race</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>Lobby</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+    </widget>
+    <widget name="SurvivalScoreboard" region="ActivityScoreboard">
+      <asset>SurvivalScoreboard</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Survival</gameState>
+        <gameState>BattleWaves</gameState>
+        <gameState>SurvivalLeaderboard</gameState>		
+      </gameStates>
+    </widget>
+    <widget name="BattleWavesScoreboard" region="ActivityScoreboard">
+      <asset>BattleWavesScoreboard</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>BattleWaves</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+		<gameState>UniverseMap</gameState> <!-- design changed and you are able to access the universe map in BattleWaves game state, this causes a UI failure if universe map is open and toggle messages are attempted to this widget, look for code vomit in this file -->
+		<gameState>Keymap</gameState>
+		<gameState>Credits</gameState>
+		<gameState>News</gameState>
+	  </gameStates>
+    </widget>
+    <widget name="SurvivalSummary" region="topCenter">
+      <asset>SurvivalSummary</asset>      
+      <gameStates>
+        <!-- There is a universal issue with letting Lua know when a widget is loaded - There is no good way
+        to hunt down the object the script is on to inform it (and Lua obviously cant reliably send a message
+        with its object id because the UI might not be loaded)
+        
+        The solution we came up with to resolve this issue is passing game states with context - a secondary object
+        passed to all widgets on the game state change.  Survival was written before this change was made, and it 
+        isnt going to work well with it without a significant rewrite to its replay system - so for now we load survival
+        into gameplay, to make sure that it has been loaded
+        -->
+        <gameState>gameplay</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+        <gameState>Instance_Loading</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>UniverseMap</gameState> <!-- design changed and you are able to access the universe map in BattleWaves game state, this causes a UI failure if universe map is open and toggle messages are attempted to this widget, look for code vomit in this file -->
+		<gameState>Keymap</gameState>
+		<gameState>Credits</gameState>
+		<gameState>News</gameState>
+	  </gameStates>
+    </widget>
+    <widget name="Siege_Attack_Help" region="dialog" type="window">
+      <asset>Siege_Attack_Help</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Siege_Defend_Help" region="dialog" type="window">
+      <asset>Siege_Defend_Help</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Siege_hud" region="topRight">
+      <asset>Siege_hud</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>
+    <widget name="Siege_Join"  type="Center">      
+      <asset>Siege_Join</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>          
+    <widget name="Siege_Drop" region="SiegeButton">
+      <asset>Siege_Drop</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>      
+    <widget name="Siege_txt" region="topCenter">
+      <asset>Siege_txt</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>  
+    <widget name="Siege_BigTxt" region="dialog" type="window">
+      <asset>Siege_BigTxt</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>      
+    <widget name="Siege_Rewards" region="dialog" type="window">
+      <asset>Siege_Rewards</asset>
+      <gameStates>
+        <gameState>Siege</gameState>
+      </gameStates>
+    </widget>         
+    <widget name="InstanceLobby" region="dialog" type="window">
+      <asset>InstanceLobby</asset>
+      <ignoreDimensions/>
+      <loadOnToggle>true</loadOnToggle>
+      <gameStates>        
+        <gameState>Lobby</gameState>        
+      </gameStates>
+    </widget>      
+    <widget name="InstanceEnter" region="dialog" type="window">
+      <asset>InstanceEnter</asset>
+      <ignoreDimensions/>      
+      <gameStates>
+        <gameState>Lobby</gameState>
+      </gameStates>
+    </widget>      
+    <widget name="RaceScoreboard"  region="topCenter">
+      <asset>RaceScoreboard</asset>
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget> 
+    <widget name="RaceSpeedometer"  region="bottomRight">
+      <asset>RaceSpeedometer</asset>      
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="RacePosition" region="topLeft">
+      <asset>RacePosition</asset>      
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>     
+    <widget name="RacerPositions" region="racerPositions">
+      <asset>RacerPositions</asset>      
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>     
+    <widget name="RaceActionBar" region="RaceBoost">
+      <asset>RaceActionBar</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="RaceStarting"  region="dialog">
+      <asset>RaceStarting</asset>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>
+    <widget name="RaceWrongWay"  region="dialog">
+      <asset>RaceWrongWay</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Race</gameState>        
+      </gameStates>
+    </widget>    
+    <widget name="RacePlacement"   region="topCenter">
+      <asset>RacePlacement</asset>      
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>Race</gameState>
+        <gameState>racingSummary</gameState>        
+      </gameStates>
+    </widget>    
+    <widget name="RaceSummary"   region="topCenter">
+      <asset>RaceSummary</asset>      
+      <gameStates>
+        <gameState>Race</gameState>
+        <gameState>racingSummary</gameState>
+      </gameStates>
+    </widget>     
+    <widget name="BudgetMeter" region="topLeft">
+      <asset>BudgetMeter</asset>
+      <gameStates>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+      	<gameState>gameplay</gameState>
+      </gameStates>
+    </widget>
+    <widget name="BossHearts" region="topCenter">
+      <asset>BossHearts</asset>
+      <gameStates>
+        <gameState>boss</gameState>
+      </gameStates>
+    </widget>
+    <widget name="BehaviorEdit" region="topLeft">
+      <asset>BehaviorEdit</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>property_editing</gameState>
+        <gameState>building</gameState>
+      </gameStates>
+    </widget>
+ 
+ 
+     <widget name="DPSGUI" region="topCenter">
+       <asset>dpsgui</asset>
+       <gameStates>
+         <gameState>dps_gui</gameState>
+       </gameStates>
+    </widget>
+
+    <!-- This is the behavior script window -->
+    <widget name="BehaviorEditor" region="behaviorEditor" type="window">
+      <asset>BehaviorEditor</asset>
+      <gameStates>
+        <gameState>property_editing</gameState>
+      </gameStates>
+    </widget>
+
+    <widget name="News" region="dialog" type="window">
+      <asset>News</asset>
+      <dontCache/>
+	  <ignoreDimensions/>
+	  <gameStates>       
+	    <gameState>News</gameState>
+      </gameStates>
+    </widget>
+    
+    <widget name="StackSplitter" region="topCenter" type="window">
+      <asset>StackSplitter</asset>
+      <loadOnToggle>false</loadOnToggle>
+      <ignoreDimensions/>
+      <gameStates>        
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>
+        <gameState>modular_building</gameState>          
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>  
+        <gameState>SurvivalLeaderboard</gameState>
+		<gameState>CommunityMissionLeaderboard</gameState>  
+        <gameState>boss</gameState>        
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="GenericTimedConfirmation" region="dialog" type="window">
+      <asset>GenericTimedConfirmation</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>gameplay</gameState>
+        <gameState>vendor</gameState>
+        <gameState>DonationVendor</gameState>
+        <gameState>building</gameState>
+        <gameState>property_editing</gameState>        
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState> 
+		<gameState>CommunityMissionLeaderboard</gameState>
+        <gameState>TamingMinigame</gameState>
+        <gameState>boss</gameState>        
+        <gameState>Instance_Loading</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>Mail</gameState>
+        <gameState>activity_rewards</gameState>
+        <gameState>BattleWaves</gameState>
+		<gameState>bank</gameState>
+      </gameStates>
+    </widget>
+    <widget name="MultiInteraction" region="dialog" type="window">
+      <asset>MultiInteraction</asset>
+      <gameStates>
+		<gameState>gameplay</gameState>
+		<gameState>vendor</gameState>
+		<gameState>DonationVendor</gameState>
+		<gameState>Mail</gameState>
+		<gameState>mission</gameState>
+		<gameState>UniverseMap</gameState>
+      </gameStates>
+    </widget>    
+	<widget name="FullScreen" region="topleft" type="background">
+	  <asset>FullScreen</asset>
+	  <dontCache/>
+	  <gameStates>
+		<gameState>vendor</gameState>
+		<gameState>DonationVendor</gameState>
+	  </gameStates>
+	</widget>
+	<widget name="ChoiceBox" region="dialog" type="window">
+	  <asset>ChoiceBox</asset>
+	  <ignoreDimensions/>
+	  <gameStates>
+		<gameState>gameplay</gameState>
+	  </gameStates>
+	</widget>
+	<widget name="WeaponCount" region="WeaponCount">
+	  <asset>WeaponCount</asset>
+	  <ignoreDimensions/>
+      <gameStates>
+        <gameState>Race</gameState>
+      </gameStates>
+  </widget>
+  <widget name="ActiveBuffsIndicator" region="buffIndicator" type="window">
+      <asset>ActiveBuffsIndicator</asset>
+      <ignoreDimensions/>
+      <gameStates>
+        <gameState>TamingMinigame</gameState>
+        <gameState>gameplay</gameState>
+        <gameState>Siege</gameState>
+        <gameState>Survival</gameState>
+        <gameState>SurvivalLeaderboard</gameState>
+        <gameState>boss</gameState>
+        <gameState>dps_gui</gameState>
+        <gameState>BattleWaves</gameState>
+      </gameStates>
+  </widget>
+  </widgets>
+</hud>

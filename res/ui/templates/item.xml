@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<nduiml>
+	<layout width="190">
+		<div style="font-size:14; color: white; text-align:center; padding-top: 5; padding-bottom: 10; padding-left: 8; padding-right: 8;">
+			<div style="padding-left: 3; padding-right: 3; margin-bottom: 3;">
+				<div style="padding: 8; padding-bottom: 11; background-style: header;">
+					<valueOf select="/name"/>
+				</div>
+			</div>
+			<if test="/bonuses">
+				<div style="vertical-align: middle;">
+					<if test="/bonuses/armor">
+						<img src="file://textures/ui/generic/Small_Armor.dds" style="width:24; height:24;"/>
+						+<valueOf select="/bonuses/armor"/>
+					</if>
+					<if test="/bonuses/imagination">
+						<img src="file://textures/ui/generic/Small_Imagination.dds" style="width:24; height:24;"/>
+						+<valueOf select="/bonuses/imagination"/>
+					</if>
+					<if test="/bonuses/life">
+						<img src="file://textures/ui/generic/Small_Heart.dds" style="width:24; height:24; margin-left: 10;"/>
+						+<valueOf select="/bonuses/life"/> 
+					</if>
+				</div>
+				<hr style="margin-top: 5; margin-bottom: 5;"/>
+			</if>
+			<if test="/skills">
+				<forEach select="/skills">
+					<div style="padding: 10; vertical-align: top;">
+						<img src="data://icon" style="width: 32; height: 32; padding: 0; margin: 1; margin-right: 10;"/>
+						<div style="display: inline-block; text-align: left; width: 100">
+							 <valueOf select="description"/>
+						</div>
+					</div>
+				</forEach>
+				<hr style="margin-top: 5; margin-bottom: 5;"/>
+			</if>
+			<div style="vertical-align: middle;">
+				<img style="width: 24; height:24; margin-right:3;" src="file://textures/ui/generic/gold_coin.dds"/>
+				<valueOf select="/money"/>
+			</div>
+<!--
+			<hr condition="/stats != NULL || /skills != NULL"/>
+			<div condition="/kit_info != NULL">
+				<echo path="/kit_info/name" style="font-size:16;"/>
+				<div indent="20" align="left">
+					<foreach path="/kit_info/items">
+						<div condition="equipped ==">
+							<echo path="name"/>
+						</div>
+					</foreach>
+				</div>
+			</div>
+-->
+		</div>
+	</layout>
+</nduiml>

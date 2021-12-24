@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AllSettings>
+    <GeneralSettings>
+        <!--
+        <GeneralSetting level="basic">
+            <Name>The UI team... </Name>
+            <Description></Description>
+            <Type>List</Type>
+            <List>
+                <Value>Great</Value>
+                <Value>Greatest!</Value>
+            </List>
+        </GeneralSetting>
+        -->
+        <GeneralSetting level="basic">
+            <Name>Reset Tooltips</Name>
+            <Description></Description>
+            <Type>Command</Type>
+            <CommandMessage>
+                <Name>ResetTooltips</Name>
+            </CommandMessage>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>Auto loot</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>Guild Member updates (logged in/out)</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>Pet Names</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>TURN_OFF_PLAYER_NAMES</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>NPC Names</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+        <GeneralSetting level="advanced">
+            <Name>Disable 'on mission complete' tooltip</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>1</DefaultValue>
+        </GeneralSetting>
+    </GeneralSettings>
+    <AudioSettings>
+        <AudioSetting level="basic">
+            <Name>Music</Name>
+            <Description>Music Volume</Description>
+            <Type>Range</Type>
+            <DefaultValue>1.0</DefaultValue>
+            <Range>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <LiveUpdate>
+                <MessageName>SetAudioMix</MessageName>
+                <Params>
+                    <Param>
+                        <Name>category</Name>
+                        <Value>master/music</Value>
+                    </Param>
+                    <Param>
+                        <Name>level</Name>
+                        <ValueIsSetting/>
+                    </Param>
+                </Params>
+            </LiveUpdate>
+        </AudioSetting>
+        <AudioSetting level="basic">
+            <Name>Sound Effects</Name>
+            <Description>Sound Effects Volume</Description>
+            <Type>Range</Type>
+            <DefaultValue>1.0</DefaultValue>
+            <Range>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <LiveUpdate>
+                <MessageName>SetAudioMix</MessageName>
+                <Params>
+                    <Param>
+                        <Name>category</Name>
+                        <Value>master/SFX</Value>
+                    </Param>
+                    <Param>
+                        <Name>level</Name>
+                        <ValueIsSetting/>
+                    </Param>
+                </Params>
+            </LiveUpdate>
+        </AudioSetting>
+        <AudioSetting level="basic">
+            <Name>Dialog</Name>
+            <Description>Dialog Volume</Description>
+            <Type>Range</Type>
+            <DefaultValue>1.0</DefaultValue>
+            <Range>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <LiveUpdate>
+                <MessageName>SetAudioMix</MessageName>
+                <Params>
+                    <Param>
+                        <Name>category</Name>
+                        <Value>master/Dialog</Value>
+                    </Param>
+                    <Param>
+                        <Name>level</Name>
+                        <ValueIsSetting/>
+                    </Param>
+                </Params>
+            </LiveUpdate>
+        </AudioSetting>
+        <AudioSetting level="basic">
+            <Name>Ambience</Name>
+            <Description>Ambience Volume</Description>
+            <Type>Range</Type>
+            <DefaultValue>1.0</DefaultValue>
+            <Range>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <LiveUpdate>
+                <MessageName>SetAudioMix</MessageName>
+                <Params>
+                    <Param>
+                        <Name>category</Name>
+                        <Value>master/Ambience</Value>
+                    </Param>
+                    <Param>
+                        <Name>level</Name>
+                        <ValueIsSetting/>
+                    </Param>
+                </Params>
+            </LiveUpdate>
+        </AudioSetting>
+        <AudioSetting level="advanced">
+            <Name>Disable chat typing sound</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>0</DefaultValue>
+        </AudioSetting>
+    </AudioSettings>
+    <InputSettings>
+        <MouseSettings>
+            <MouseSetting>
+                <Name>MOUSESCALAR</Name>
+                <Description></Description>
+                <Type>Range</Type>
+                <DefaultValue>0.00425</DefaultValue>
+                <Range>
+                    <Min>0.001</Min>
+                    <Max>2.0</Max>
+                </Range>
+            </MouseSetting>
+            <MouseSetting>
+                <Name>MOUSE_INVERT</Name>
+                <Description>Invert the mouse.</Description>
+                <Type>Boolean</Type>
+                <DefaultValue>0</DefaultValue>
+            </MouseSetting>
+        </MouseSettings>
+        <GamepadSettings>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_AUTO_ROLL</Name>
+                <Description>How much to roll the camera into or out of its horizontal turns.</Description>
+                <Type>RealNumber</Type>
+                <DefaultValue>0.0</DefaultValue>
+            </GamepadSetting>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_DAMPING</Name>
+                <Description>How much to average out the speed of the camera's motion.  Higher values make the camera motion smoother, but less responsive.</Description>
+                <Type>Range</Type>
+                <DefaultValue>0.995</DefaultValue>
+                <Range>
+                    <Min>0.0</Min>
+                    <Max>1.0</Max>
+                </Range>
+            </GamepadSetting>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_INVERT_PITCH</Name>
+                <Description>Whether to invert the pitch of the camera.  Default is right stick up = camera pitch up.</Description>
+                <Type>Boolean</Type>
+                <DefaultValue>0</DefaultValue>
+            </GamepadSetting>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_MOVEMENT_SPEED</Name>
+                <Description>Max movement speed of the camera, in world units/sec.</Description>
+                <Type>Range</Type>
+                <DefaultValue>50.0</DefaultValue>
+                <Range>
+                    <Min>0.001</Min>
+                </Range>
+            </GamepadSetting>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_ROTATION_SPEED</Name>
+                <Description>Max rotation speed of the camera, in degrees/sec.</Description>
+                <Type>Range</Type>
+                <DefaultValue>90.0</DefaultValue>
+                <Range>
+                    <Min>0.001</Min>
+                </Range>
+            </GamepadSetting>
+            <GamepadSetting>
+                <Name>GAMEPAD_FREECAM_ZOOM_SPEED</Name>
+                <Description>Max zoom speed of the camera, in degrees FOV/sec.</Description>
+                <Type>Range</Type>
+                <DefaultValue>15.0</DefaultValue>
+                <Range>
+                    <Min>0.001</Min>
+                </Range>
+            </GamepadSetting>
+        </GamepadSettings>
+        <ControlsSettings>
+	        <ControlsSetting level="basic">
+	            <Name>QUICK_ACTIONBAR</Name>
+	            <Description>When on, single-clicks and hotkey presses will activate a skill rather than just selecting it for use.</Description>
+	            <Type>Boolean</Type>
+	            <Range>
+	                <Min>0</Min>
+	                <Max>1</Max>
+	            </Range>
+	            <DefaultValue>1</DefaultValue>
+	        </ControlsSetting>
+	    </ControlsSettings>
+        <InputActions>
+            <InputAction name="BACKWARD_DIR" type="0">
+                <KeyCombo>
+                    <Key>VK_S</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_DOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_DOWN" type="0">
+                <KeyCombo>
+                    <Key>VK_S</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_BACKWARD" type="0">
+                <KeyCombo>
+                    <Key>VK_DOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_DOWN" type="0">
+                <KeyCombo>
+                    <Key>VK_PAGEDOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_FORWARD" type="0">
+                <KeyCombo>
+                    <Key>VK_UP</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_PAN_UP" type="0">
+                <KeyCombo>
+                    <Key>VK_PAGEUP</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_RESET" type="0">
+                <KeyCombo>
+                    <Key>VK_HOME</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_D</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CAMERA_UP" type="0">
+                <KeyCombo>
+                    <Key>VK_W</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_COPY" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_C</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_C</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_CUT" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_X</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_X</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_DELETE" type="0">
+                <KeyCombo>
+                    <Key>VK_DELETE</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ENTER_GROUP" type="0">
+                <KeyCombo>
+                    <Key>VK_LALT</Key>
+                    <Key>VK_E</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RALT</Key>
+                    <Key>VK_E</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ESCAPE" type="0">
+                <KeyCombo>
+                    <Key>VK_ESC</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_GROUP" type="0">
+                <KeyCombo>
+                    <Key>VK_LALT</Key>
+                    <Key>VK_G</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RALT</Key>
+                    <Key>VK_G</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_LEAVE_GROUP" type="0">
+                <KeyCombo>
+                    <Key>VK_LALT</Key>
+                    <Key>VK_L</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RALT</Key>
+                    <Key>VK_L</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_LOAD" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_L</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_L</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_PASTE" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_V</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_V</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ROT_BRICK_DOWN" type="0">
+                <KeyCombo>
+                    <Key>VK_NUMPAD2</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ROT_BRICK_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_NUMPAD4</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ROT_BRICK_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_NUMPAD6</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_ROT_BRICK_UP" type="0">
+                <KeyCombo>
+                    <Key>VK_NUMPAD8</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_SAVE" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_S</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_S</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_SELECT_ALL" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RCTRL</Key>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="BBB_UNGROUP" type="0">
+                <KeyCombo>
+                    <Key>VK_LALT</Key>
+                    <Key>VK_U</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RALT</Key>
+                    <Key>VK_U</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ASCEND" type="0">
+                <KeyCombo>
+                    <Key>VK_R</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_DESCEND" type="0">
+                <KeyCombo>
+                    <Key>VK_F</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_FOCAL_OFFSET" type="3">
+                <KeyCombo>
+                    <Key>1.75</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_FOCAL_PT" type="3">
+                <KeyCombo>
+                    <Key>2.95</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_PITCH_DOWN" type="0">
+                <KeyCombo>
+                    <Key>VK_PAGEDOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_PITCH_UP" type="0">
+                <KeyCombo>
+                    <Key>VK_PAGEUP</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_PREF_VIEW_OFFSET" type="7">
+                <KeyCombo>
+                    <Key>1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ROTATE_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_Q</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ROTATE_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_E</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_SNAP" type="0">
+                <KeyCombo>
+                    <Key>VK_HOME</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_PAD_RTHUMB_PRESS</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_STRAFE_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_STRAFE_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_D</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_TOGGLE_ATTACH" type="0">
+                <KeyCombo>
+                    <Key>VK_LCTRL</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_TOGGLE_LOCK_OBJECT" type="0">
+                <KeyCombo>
+                    <Key>VK_PAD_A</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_TYPE_DEFAULT" type="0">
+                <KeyCombo>
+                    <Key>CAMERA_MAIN_GAME_D</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_UNLOCK" type="0">
+                <KeyCombo>
+                    <Key>VK_LBUTTON</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_UNLOCK_VERT" type="0">
+                <KeyCombo>
+                    <Key>VK_RBUTTON</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_UNLOCK_WALK" type="0">
+                <KeyCombo>
+                    <Key>VK_MBUTTON</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ZOOM_CYCLE" type="0">
+                <KeyCombo>
+                    <Key>VK_END</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ZOOM_IN" type="0">
+                <KeyCombo>
+                    <Key>VK_INSERT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ZOOM_MAX" type="3">
+                <KeyCombo>
+                    <Key>10.0</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ZOOM_OUT" type="0">
+                <KeyCombo>
+                    <Key>VK_DELETE</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAMERA_ZOOM_RESET" type="0">
+                <KeyCombo>
+                    <Key>VK_PAD_BACK</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAST_SKILL" type="0">
+                <KeyCombo>
+                    <Key>VK_LALT</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RALT</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_PAD_X</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CAST_SKILL_MOUSE" type="0">
+                <KeyCombo>
+                    <Key>VK_LBUTTON</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CHAT_NEXT" type="0">
+                <KeyCombo>
+                    <Key>VK_LSHIFT</Key>
+                    <Key>VK_DOWN</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RSHIFT</Key>
+                    <Key>VK_DOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CHAT_PREVIOUS" type="0">
+                <KeyCombo>
+                    <Key>VK_LSHIFT</Key>
+                    <Key>VK_UP</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RSHIFT</Key>
+                    <Key>VK_UP</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CLIP_FAR" type="3">
+                <KeyCombo>
+                    <Key>500</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CLIP_NEAR" type="3">
+                <KeyCombo>
+                    <Key>0.1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CONFIG_VERSION" type="5">
+                <KeyCombo>
+                    <Key>10</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CONTROL_SCHEME_DEFAULT" type="0">
+                <KeyCombo>
+                    <Key>SCHEME_D</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="CONTROL_TOGGLE_MOUSE_CURSOR" type="0">
+                <KeyCombo>
+                    <Key>VK_PAD_RSHOULDER</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="DATACACHEHOST" type="0">
+                <KeyCombo>
+                    <Key>lwo-devserv2</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="ENABLE_CHAT_TYPING_SOUND" type="7">
+                <KeyCombo>
+                    <Key>1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="FACIAL_ANIMATION" type="7">
+                <KeyCombo>
+                    <Key>1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="FIELD_OF_VIEW" type="3">
+                <KeyCombo>
+                    <Key>40.0</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="FORWARD_DIR" type="0">
+                <KeyCombo>
+                    <Key>VK_W</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_UP</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="HEIGHT" type="2">
+                <KeyCombo>
+                    <Key>1200</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="INTERACT" type="0">
+                <KeyCombo>
+                    <Key>VK_LSHIFT</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RSHIFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="JUMP" type="0">
+                <KeyCombo>
+                    <Key>VK_SPACE</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_PAD_A</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="MOVE_AUTORUN" type="0">
+                <KeyCombo>
+                    <Key>VK_NUMLOCK</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="MOVE_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="MOVE_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_D</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="MOVE_TOWARDS" type="0">
+                <KeyCombo>
+                    <Key>VK_S</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_DOWN</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="ROTATE_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_Q</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="ROTATE_LEFT_ALTERNATE" type="0">
+                <KeyCombo>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="ROTATE_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_E</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="ROTATE_RIGHT_ALTERNATE" type="0">
+                <KeyCombo>
+                    <Key>VK_D</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SKILL1" type="0">
+                <KeyCombo>
+                    <Key>VK_1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SKILL2" type="0">
+                <KeyCombo>
+                    <Key>VK_2</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SKILL3" type="0">
+                <KeyCombo>
+                    <Key>VK_3</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SKILL4" type="0">
+                <KeyCombo>
+                    <Key>VK_4</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SKILL5" type="0">
+                <KeyCombo>
+                    <Key>VK_5</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT0" type="0">
+                <KeyCombo>
+                    <Key>VK_0</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT1" type="0">
+                <KeyCombo>
+                    <Key>VK_1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT2" type="0">
+                <KeyCombo>
+                    <Key>VK_2</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT3" type="0">
+                <KeyCombo>
+                    <Key>VK_3</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT4" type="0">
+                <KeyCombo>
+                    <Key>VK_4</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT5" type="0">
+                <KeyCombo>
+                    <Key>VK_5</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT6" type="0">
+                <KeyCombo>
+                    <Key>VK_6</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT7" type="0">
+                <KeyCombo>
+                    <Key>VK_7</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT8" type="0">
+                <KeyCombo>
+                    <Key>VK_8</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT9" type="0">
+                <KeyCombo>
+                    <Key>VK_9</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="SPEEDCHAT_BACK" type="0">
+                <KeyCombo>
+                    <Key>VK_BACKSPACE</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="START_CHATTING" type="0">
+                <KeyCombo>
+                    <Key>VK_ENTER</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="STRAFE_LEFT" type="0">
+                <KeyCombo>
+                    <Key>VK_A</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_LEFT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="STRAFE_LEFT_ALTERNATE" type="0">
+                <KeyCombo>
+                    <Key>VK_Q</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="STRAFE_RIGHT" type="0">
+                <KeyCombo>
+                    <Key>VK_D</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RIGHT</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="STRAFE_RIGHT_ALTERNATE" type="0">
+                <KeyCombo>
+                    <Key>VK_E</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TAKE_SCREENSHOT" type="0">
+                <KeyCombo>
+                    <Key>VK_SYSRQ</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TERRAIN_TOGGLE_EDIT" type="0">
+                <KeyCombo>
+                    <Key>VK_F1</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TERRAIN_TOGGLE_MODIFICATION" type="0">
+                <KeyCombo>
+                    <Key>VK_F3</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TERRAIN_TOGGLE_OBJECT_PLACEMENT" type="0">
+                <KeyCombo>
+                    <Key>VK_F2</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TOGGLE_DISPLAY_INTERFACE" type="0">
+                <KeyCombo>
+                    <Key>VK_F10</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TOGGLE_INVENTORY" type="0">
+                <KeyCombo>
+                    <Key>VK_I</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TOGGLE_PASSPORT" type="0">
+                <KeyCombo>
+                    <Key>VK_P</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="TOGGLE_SPEEDCHAT" type="0">
+                <KeyCombo>
+                    <Key>VK_C</Key>
+                </KeyCombo>
+            </InputAction>
+            <InputAction name="WALK_MODIFIER" type="0">
+                <KeyCombo>
+                    <Key>VK_LSHIFT</Key>
+                </KeyCombo>
+                <KeyCombo>
+                    <Key>VK_RSHIFT</Key>
+                </KeyCombo>
+            </InputAction>
+        </InputActions>
+    </InputSettings>
+    <GraphicsSettings>
+        <GraphicsSetting level="basic">
+            <Name>Windowed Mode</Name>
+            <Description></Description>
+            <Type>Boolean</Type>
+            <DefaultValue>0</DefaultValue>
+        </GraphicsSetting>
+        <GraphicsSetting level="basic">
+            <Name>Display Resolution</Name>
+            <Description></Description>
+            <Type>List</Type>
+            <ListSource>
+                <ServiceName>GetValidResolutions</ServiceName>
+                <ReturnKey>resolutions</ReturnKey>
+            </ListSource>
+        </GraphicsSetting>
+        <GraphicsSetting level="basic">
+            <Name>Graphics Quality</Name>
+            <Description></Description>
+            <Type>List</Type>
+            <List>
+                <Value>Min</Value>
+                <Value>Mid</Value>
+                <Value>Max</Value>
+            </List>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_MINIFIG_TEXTURE_LOD</Name>
+            <Description>Controls the resolution of the minifig texture.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>2</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>2</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_LEGO_SHADER_QUALITY</Name>
+            <Description>This actually controls the complexity of ALL shaders, not just LEGO shaders.  Only a few non-LEGO shaders have useful LOD, though (like water).</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>3</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>3</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>FACIAL_ANIMATION</Name>
+            <Description>This enables or disables minifig facial animation.</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>0</Min>
+                <Max>1</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Max>1</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>HDR</Name>
+            <Description>This enables or disables HDR rendering.  I'd usually just call it "Bloom" in a user-friendly compact UI.</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>0</Min>
+                <Max>1</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_FLAIR_ON</Name>
+            <Description>This enables or disables flair (the ground details: flowers, bits of grass, roots, etc, the details on the heightmap).</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>0</Min>
+                <Max>1</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Mid>1</Mid>
+                <Max>1</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_LOD_DISTANCE_SKEW</Name>
+            <Description>This skews the distance at which LODs pop to their next level.  2.0 means that LOD happens at half the usual distance.  It's a divisor on the distance required for an LOD pop.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>2.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <Levels>
+                <Min>2.0</Min>
+                <Mid>1.5</Mid>
+                <Max>1.0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_SHADER_RADII0</Name>
+            <Description>Controls the ranges at which shaders LOD between their highest, mid and lowest-spec versions.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>50</Min>
+                <Max>750</Max>
+            </Range>
+            <Levels>
+                <Min>50</Min>
+                <Mid>200</Mid>
+                <Max>750</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_SHADER_RADII1</Name>
+            <Description>Controls the ranges at which shaders LOD between their highest, mid and lowest-spec versions.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>100</Min>
+                <Max>1500</Max>
+            </Range>
+            <Levels>
+                <Min>100</Min>
+                <Mid>400</Mid>
+                <Max>1500</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_TERRAIN_SHADER_QUALITY</Name>
+            <Description>This enables the lower-quality terrain shader.  This may no longer do anything with Tak’s overhauled terrain – experiment.</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_UILOWRES</Name>
+            <Description>This enables the lower-resolution UI.</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>TURN_OFF_PLAYER_NAMES</Name>
+            <Description>This disables the floating names over player heads.</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>0</Min>
+                <Max>1</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>UI_AA</Name>
+            <Description>This controls the anti-aliasing on the UI, and on anything else Flash (like minifig textures).</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>2</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_UILOWRES</Name>
+            <Description>This controls the anti-aliasing on the UI, and on anything else Flash (like minifig textures).</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>VIEW_RANGE_MINMAX_SLIDER</Name>
+            <Description>This is the view range slider.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>0.0</Min>
+                <Max>1.0</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Mid>0.5</Mid>
+                <Max>1.0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_ANIM_LOD</Name>
+            <Description>This controls the quality of any animations being played.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>2</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>2</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_PARTICLES_PRIO</Name>
+            <Description>This controls what particles are visible.  Particles work a "priority" system, where lower priorities are indicated via higher numbers, and this value basically says "only priorities greater than be get to render".</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>5</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>3</Mid>
+                <Max>5</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>R_TERRAIN_MESH_DETAIL_ADJUSTMENT</Name>
+            <Description>This controls terrain LOD.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>TEXRES</Name>
+            <Description>This controls the texture resolutions between min, mid and max.</Description>
+            <Type>Range</Type>
+            <List>
+                <Min>2</Min>
+                <Max>0</Max>
+            </List>
+            <Levels>
+                <Min>2</Min>
+                <Mid>1</Mid>
+                <Max>0</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>SMASHABLES_BRICK_PERCENTAGE</Name>
+            <Description>This controls the percentage of the total bricks in a given smashable that fly out when you smash it.  No longer used, given how it limits the total possible bricks rather than the total bricks actually spawned..</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>100</Min>
+                <Max>100</Max>
+            </Range>
+            <Levels>
+                <Min>100</Min>
+                <Max>100</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>SMASHABLES_MAX_BRICK_COUNT</Name>
+            <Description>This controls the maximum number of bricks that can possibly fly out of a smashable.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>5</Min>
+                <Max>100</Max>
+            </Range>
+            <Levels>
+                <Min>5</Min>
+                <Mid>50</Mid>
+                <Max>100</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>QUICKBUILD_MAX_BOUNCING_BRICKS</Name>
+            <Description>This is the maximum number of bricks bouncing on the ground near a quickbuild (the ones you click on to build).</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>0</Min>
+                <Max>15</Max>
+            </Range>
+            <Levels>
+                <Min>0</Min>
+                <Mid>7</Mid>
+                <Max>15</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>QUICKBUILD_VISUAL_PCT_BRICKS_THROWN</Name>
+            <Description>Indicates percentage of bricks visible when you're tossing them onto a quickbuild.</Description>
+            <Type>Range</Type>
+            <Range>
+                <Min>30</Min>
+                <Max>100</Max>
+            </Range>
+            <Levels>
+                <Min>30</Min>
+                <Mid>50</Mid>
+                <Max>100</Max>
+            </Levels>
+        </GraphicsSetting>
+        <GraphicsSetting level="advanced">
+            <Name>QUICKBUILD_USE_FADE_UP_SHADER</Name>
+            <Description>This enables the min-spec build visualization (which uses a shader to just fade the object up as it's built).</Description>
+            <Type>Boolean</Type>
+            <Range>
+                <Min>1</Min>
+                <Max>0</Max>
+            </Range>
+            <Levels>
+                <Min>1</Min>
+                <Mid>0</Mid>
+                <Max>0</Max>
+            </Levels>
+            <Compatibility>
+                <Requirement>
+                    <Description>In order to use the min-spec visualization there can be no bouncing bricks.  Quickbuild bouncing bricks are now disabled.</Description>
+                    <Value>1</Value>
+                    <ForeignKey>QUICKBUILD_MAX_BOUNCING_BRICKS</ForeignKey>
+                    <ForeignValue>0</ForeignValue>
+                </Requirement>
+            </Compatibility>
+        </GraphicsSetting>
+    </GraphicsSettings>
+</AllSettings>

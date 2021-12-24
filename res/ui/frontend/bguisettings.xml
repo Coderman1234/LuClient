@@ -1,0 +1,252 @@
+﻿<?xml version="1.0"?>
+
+<!-- 
+  //////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////
+  ////
+  ////  BACKGROUND (FRONT-END) WINDOWS
+  ////
+  ////  These are windows that are transparent to the
+  ////  end-user, i.e., s/he has no idea that the scene
+  ////  is there. 
+  ////
+  ////  These are **NOT** meant to be edited by the end-user.
+  ////
+  //////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////
+  -->
+
+<!--
+
+*** READ BEFORE EDITING! ***
+
+Designers:
+
+[...] - denotes optional data
+    i.e. -  [relativeTo="..."] means that relativeTo is an optional attribute
+(...) - indicates non-literal value (anything that fits the rule inside)
+    i.e. -  (positive number) means any number >= 0 is ok
+  |   - separates possible values within the same property/value
+    i.e. -  default | (positive number) means that you must either have default 
+            or any positive number, but not both
+
+<UISettings>
+  <frame name="(framename)">
+      [<size x="default | screen | (positive number)" y="default | screen | (positive number)" />]
+      [<bg visible="false | true" />]
+    
+    *(technically optional, the anchors default to upper left corner on both the scene
+      itself and the screen, which also means a parent/child relationship can never be default)
+      [<anchors>
+        <anchor [relativeTo="screen | self | (another frame/scene name)"]>
+          <xAnchor [percent="(any number 0->100)">Left | Center | Right</xAnchor>
+          <yAnchor [percent="(any number 0->100)">Top | Center | Bottom</yAnchor>
+        </anchor>
+      </anchors>]
+  </frame>
+</UISettings>
+
+Programmers:
+   
+-->
+
+<UISettings>
+
+  <frame name="loadingscreen">
+    <size x="screen" y="screen"/>
+    <bg visible="true"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Top</xAnchor>
+        <yAnchor>Left</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="loginscreen">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="characterselection">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="charactercreation">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="factionchoice">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="happyflower">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Right</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="buildingeditor">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="hfobjectpalette.gsa">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="hfterrainbrush.gsa">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="hfentitypalette.gsa">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="hfshadereditor">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="loginvignettes">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="tooltip">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="messagebox">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Center</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="exit">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor percent="97.359375">Left</xAnchor>
+        <yAnchor percent="1">Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="facecreate">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="passport">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Right</xAnchor>
+        <yAnchor>Bottom</yAnchor>
+      </anchor>
+      <anchor relativeTo="self">
+        <xAnchor>Right</xAnchor>
+        <yAnchor>Bottom</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="fehelpscreen">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Center</xAnchor>
+        <yAnchor>Center</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+  <frame name="fehelpscreen_backdrop">
+    <size x="default" y="default"/>
+    <anchors>
+      <anchor relativeTo="screen">
+        <xAnchor>Left</xAnchor>
+        <yAnchor>Top</yAnchor>
+      </anchor>
+    </anchors>
+  </frame>
+
+
+
+</UISettings>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BlockLibrary>
+	<Trigger ShortDescription="%[UI_BEHAVIORS_SECTION_TRIGGER]" LongDescription="%[UI_BEHAVIORS_STARTBLOCKS_DESCRIPTION]" Shape="start">
+		<OnInteract tier="0">
+			<IconPath>img://textures/ui/Behaviors/OnInteract.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONINTERACT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONINTERACT_DESCRIPTION]</LongDescription>
+		</OnInteract>
+
+		<OnAttack tier="0">
+			<IconPath>img://textures/ui/Behaviors/OnAttack.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONATTACK]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONATTACK_DESCRIPTION]</LongDescription>
+		</OnAttack>
+
+		<OnEnterProximity tier="2">
+			<IconPath>img://textures/ui/Behaviors/OnProximity.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Enumeration</Type>
+				<Values>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_TOUCHING]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_NEAR]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_FAR]</Value>
+				</Values>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_ONCLOSE_NEAR]</DefaultValue>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONCLOSE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONCLOSE_DESCRIPTION]</LongDescription>
+		</OnEnterProximity>
+
+		<OnLeaveProximity tier="2">
+			<IconPath>img://textures/ui/Behaviors/OnLeave.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Enumeration</Type>
+				<Values>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_TOUCHING]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_NEAR]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONCLOSE_FAR]</Value>
+				</Values>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_ONCLOSE_NEAR]</DefaultValue>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONLEAVE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONLEAVE_DESCRIPTION]</LongDescription>
+		</OnLeaveProximity>
+
+		<OnImpact tier="2">
+			<IconPath>img://textures/ui/Behaviors/OnImpact.dds</IconPath>
+			<Argument>
+				<Name>ImpactType</Name>
+				<Type>Enumeration</Type>
+				<Values>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONIMPACT_ANY]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONIMPACT_MODEL]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONIMPACT_TERRAIN]</Value>
+					<Value>%[UI_BEHAVIORS_BLOCK_ONIMPACT_BOUNDARY]</Value>
+				</Values>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_ONIMPACT_ANY]</DefaultValue>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONIMPACT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONIMPACT_DESCRIPTION]</LongDescription>
+		</OnImpact>
+
+		<OnChat tier="3">
+			<IconPath>img://textures/ui/Behaviors/OnChat.dds</IconPath>
+			<Argument>
+				<Name>Message</Name>
+				<Type>String</Type>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_ONCHAT_DEFAULT]</DefaultValue>
+			</Argument>
+			<Input>Message</Input>
+			<InputType>string</InputType>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONCHAT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONCHAT_DESCRIPTION]</LongDescription>
+		</OnChat>
+
+		<OnTimer tier="4">
+			<IconPath>img://textures/ui/Behaviors/OnTimer.dds</IconPath>
+			<Argument>
+				<Name>Interval</Name>
+				<Type>Float</Type>
+				<DefaultValue>5</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONTIMER]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONTIMER_DESCRIPTION]</LongDescription>
+		</OnTimer>
+
+		<OnStartup tier="4">
+			<IconPath>img://textures/ui/Behaviors/OnStart.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ONSTART]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ONSTART_DESCRIPTION]</LongDescription>
+		</OnStartup>
+	</Trigger>
+
+	<Move ShortDescription="%[UI_BEHAVIORS_SECTION_MOVE]" LongDescription="%[UI_BEHAVIORS_MOVEMENTS_DESCRIPTION]" Shape="greencmd">
+		<FlyUp tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveUp.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>50</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVEUP]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVEUP_DESCRIPTION]</LongDescription>
+		</FlyUp>
+
+		<FlyDown tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveDown.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>50</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVEDOWN]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVEDOWN_DESCRIPTION]</LongDescription>
+		</FlyDown>
+
+		<MoveLeft tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveLeft.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVELEFT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVELEFT_DESCRIPTION]</LongDescription>
+		</MoveLeft>
+
+		<MoveRight tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveRight.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVERIGHT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVERIGHT_DESCRIPTION]</LongDescription>
+		</MoveRight>
+
+		<MoveForward tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveBackward.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVEFORWARD]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVEFORWARD_DESCRIPTION]</LongDescription>
+		</MoveForward>
+
+		<MoveBackward tier="0">
+			<IconPath>img://textures/ui/Behaviors/MoveForward.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_MOVEBACKWARD]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_MOVEBACKWARD_DESCRIPTION]</LongDescription>
+		</MoveBackward>
+	</Move>
+
+	<Rotate ShortDescription="%[UI_BEHAVIORS_SECTION_ROTATE]" LongDescription="%[UI_BEHAVIORS_ROTATIONS_DESCRIPTION]" Shape="greencmd">
+		<Spin tier="0">
+			<IconPath>img://textures/ui/Behaviors/SpinRight.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SPINLEFT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SPINLEFT_DESCRIPTION]</LongDescription>
+		</Spin>
+
+		<SpinNegative tier="0">
+			<IconPath>img://textures/ui/Behaviors/SpinLeft.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SPINRIGHT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SPINRIGHT_DESCRIPTION]</LongDescription>
+		</SpinNegative>
+
+		<Tilt tier="2">
+			<IconPath>img://textures/ui/Behaviors/TiltBack.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_TILTFORWARD]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_TILTFORWARD_DESCRIPTION]</LongDescription>
+		</Tilt>
+
+		<TiltNegative tier="2">
+			<IconPath>img://textures/ui/Behaviors/TiltForward.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_TILTBACK]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_TILTBACK_DESCRIPTION]</LongDescription>
+		</TiltNegative>
+
+		<Roll tier="2">
+			<IconPath>img://textures/ui/Behaviors/RollLeft.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ROLLLEFT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ROLLLEFT_DESCRIPTION]</LongDescription>
+		</Roll>
+
+		<RollNegative tier="2">
+			<IconPath>img://textures/ui/Behaviors/RollRight.dds</IconPath>
+			<Argument>
+				<Name>Degrees</Name>
+				<Type>Float</Type>
+				<DefaultValue>90</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>3600</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_ROLLRIGHT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_ROLLRIGHT_DESCRIPTION]</LongDescription>
+		</RollNegative>
+	</Rotate>
+
+	<IntelligentMove ShortDescription="%[UI_BEHAVIORS_SECTION_INTELLIGENTMOVE]" LongDescription="%[UI_BEHAVIORS_NAVIGATION_DESCRIPTION]" Shape="greencmd">
+
+		<MoveToInteractor tier="3">
+			<IconPath>img://textures/ui/Behaviors/Follow.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_FOLLOW]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_FOLLOW_DESCRIPTION]</LongDescription>
+		</MoveToInteractor>
+
+		<MoveAwayFromInteractor tier="3">
+			<IconPath>img://textures/ui/Behaviors/Flee.dds</IconPath>
+			<Argument>
+				<Name>Distance</Name>
+				<Type>Float</Type>
+				<DefaultValue>20</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_FLEE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_FLEE_DESCRIPTION]</LongDescription>
+		</MoveAwayFromInteractor>
+
+		<MoveBackToStart tier="3">
+			<IconPath>img://textures/ui/Behaviors/GoHome.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_RETURNHOME]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_RETURNHOME_DESCRIPTION]</LongDescription>
+		</MoveBackToStart>
+
+		<SetSpeed tier="3">
+			<IconPath>img://textures/ui/Behaviors/Speed.dds</IconPath>
+			<Argument>
+				<Name>Speed</Name>
+				<Type>Float</Type>
+				<DefaultValue>10</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>30</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SETSPEED]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SETSPEED_DESCRIPTION]</LongDescription>
+		</SetSpeed>
+
+	</IntelligentMove>
+
+	<Action ShortDescription="%[UI_BEHAVIORS_SECTION_ACTION]" LongDescription="%[UI_BEHAVIORS_ACTIONS_DESCRIPTION]" Shape="redcmd">
+
+		<PlaySound tier="0">
+			<IconPath>img://textures/ui/Behaviors/PlaySound.dds</IconPath>
+			<Argument>
+				<Name>sound</Name>
+				<Type>Enumeration</Type>
+				<EnumerationSource>
+					<ServiceName>GetBehaviorSoundList</ServiceName>
+					<ReturnValueKey>sounds</ReturnValueKey>
+				</EnumerationSource>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_PLAYSOUND]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_PLAYSOUND_DESCRIPTION]</LongDescription>
+		</PlaySound>
+
+		<Smash tier="0">
+			<IconPath>img://textures/ui/Behaviors/Smash.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SMASH]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SMASH_DESCRIPTION]</LongDescription>
+		</Smash>
+
+		<UnSmash tier="0">
+			<IconPath>img://textures/ui/Behaviors/Rebuild.dds</IconPath>
+			<Argument>
+				<Name>Duration</Name>
+				<Type>Float</Type>
+				<DefaultValue>3</DefaultValue>
+				<Minimum>0</Minimum>
+				<Maximum>90</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_REBULID]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_REBUILD_DESCRIPTION]</LongDescription>
+		</UnSmash>
+
+		<Wait tier="0">
+			<IconPath>img://textures/ui/Behaviors/Wait.dds</IconPath>
+			<Argument>
+				<Name>Delay</Name>
+				<Type>Float</Type>
+				<DefaultValue>1</DefaultValue>
+				<Minimum>0.1</Minimum>
+				<Maximum>100</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_WAIT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_WAIT_DESCRIPTION]</LongDescription>
+		</Wait>
+
+		<Chat tier="2">
+			<IconPath>img://textures/ui/Behaviors/Chat.dds</IconPath>
+			<Argument>
+				<Name>Message</Name>
+				<Type>String</Type>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_CHAT_DEFAULT]</DefaultValue>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_CHAT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_CHAT_DESCRIPTION]</LongDescription>
+		</Chat>
+
+		<PrivateMessage tier="2">
+			<IconPath>img://textures/ui/Behaviors/SilentChat.dds</IconPath>
+			<Argument>
+				<Name>Message</Name>
+				<Type>String</Type>
+				<DefaultValue>%[UI_BEHAVIORS_BLOCK_SILENTCHAT_DEFAULT]</DefaultValue>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SILENTCHAT]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SILENTCHAT_DESCRIPTION]</LongDescription>
+		</PrivateMessage>
+
+		<Restart tier="3" Shape="end">
+			<IconPath>img://textures/ui/Behaviors/Restart.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_RESTART]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_RESTART_DESCRIPTION]</LongDescription>
+		</Restart>
+
+	</Action>
+
+	<Gameplay ShortDescription="%[UI_BEHAVIORS_SECTION_GAMEPLAY]" LongDescription="%[UI_BEHAVIORS_BLOCK_GAMEPLAY_DESCRIPTION]" Shape="cyancmd">
+
+		<DropImagination tier="3">
+			<IconPath>img://textures/ui/Behaviors/DropImagination.dds</IconPath>
+			<Argument>
+				<Name>Amount</Name>
+				<Type>Integer</Type>
+				<DefaultValue>1</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>5</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_DROPIMAGINATION]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_DROPIMAGINATION_DESCRIPTION]</LongDescription>
+		</DropImagination>
+
+		<DropHealth tier="4">
+			<IconPath>img://textures/ui/Behaviors/DropHealth.dds</IconPath>
+			<Argument>
+				<Name>Amount</Name>
+				<Type>Integer</Type>
+				<DefaultValue>1</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>5</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_DROPHEALTH]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_DROPHEALTH_DESCRIPTION]</LongDescription>
+		</DropHealth>
+
+		<DropArmor tier="4">
+			<IconPath>img://textures/ui/Behaviors/DropArmor.dds</IconPath>
+			<Argument>
+				<Name>Amount</Name>
+				<Type>Integer</Type>
+				<DefaultValue>1</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>5</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_DROPARMOR]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_DROPARMOR_DESCRIPTION]</LongDescription>
+		</DropArmor>
+
+		<!--
+		<RemoveImagination tier="3">
+			<IconPath>img://textures/ui/Behaviors/UseImagination.dds</IconPath>
+			<Argument>
+				<Name>Amount</Name>
+				<Type>Integer</Type>
+				<DefaultValue>2</DefaultValue>
+				<Minimum>1</Minimum>
+				<Maximum>5</Maximum>
+			</Argument>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_USEIMAGINATION]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_RESTART_DESCRIPTION]</LongDescription>
+			</RemoveImagination>
+-->
+		<DoDamage tier="4">
+			<IconPath>img://textures/ui/Behaviors/CauseDamage.dds</IconPath>
+			<!--
+	<Argument>
+	<Name>Amount</Name>
+	<Type>Integer</Type>
+	<DefaultValue>1</DefaultValue>
+	<Minimum>1</Minimum>
+	<Maximum>1</Maximum>
+	</Argument>
+-->
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_DODAMAGE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_DODAMAGE_DESCRIPTION]</LongDescription>
+		</DoDamage>
+
+		<SpawnStromling tier="4">
+			<IconPath>img://textures/ui/achievements/darkling_strombie.DDS</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHDARKLING]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHDARKLING_DESCRIPTION]</LongDescription>
+		</SpawnStromling>
+
+		<SpawnPirate tier="4">
+			<IconPath>img://textures/ui/achievements/darkling_pirate.DDS</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHPIRATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHPIRATE_DESCRIPTION]</LongDescription>
+		</SpawnPirate>
+
+		<SpawnRonin tier="4">
+			<IconPath>img://textures/ui/missioncomics/Wonderland/Forbidden_valley/Task_icons/mission_498.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHRONIN]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHRONIN_DESCRIPTION]</LongDescription>
+		</SpawnRonin>
+
+		<!--
+    <SpawnMech tier="4">
+      <IconPath>img://textures/ui/achievements/darkling_strombie.DDS</IconPath>
+      <ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHMECH]</ShortDescription>
+      <LongDescription>%[UI_BEHAVIORS_BLOCK_RESTART_DESCRIPTION]</LongDescription>
+      </SpawnMech>
+
+    <SpawnApe tier="4">
+      <IconPath>img://textures/ui/achievements/darkling_pirate.DDS</IconPath>
+      <ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHAPE]</ShortDescription>
+      <LongDescription>%[UI_BEHAVIORS_BLOCK_RESTART_DESCRIPTION]</LongDescription>
+      </SpawnApe>
+
+    <SpawnSpiderling tier="4">
+      <IconPath>img://textures/ui/missioncomics/Wonderland/Forbidden_valley/Task_icons/mission_498.dds</IconPath>
+      <ShortDescription>%[UI_BEHAVIORS_BLOCK_UNLEASHSPIDERLING]</ShortDescription>
+      <LongDescription>%[UI_BEHAVIORS_BLOCK_RESTART_DESCRIPTION]</LongDescription>
+      </SpawnSpiderling>
+-->
+
+	</Gameplay>
+
+	<StateMachine ShortDescription="%[UI_BEHAVIORS_SECTION_STATEMACHINE]" LongDescription="%[UI_BEHAVIORS_STATES_DESCRIPTION]" Shape="end">
+		<ChangeStateHome tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Home.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_HOMESTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_HOMESTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateHome>
+
+		<ChangeStateCircle tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Circle.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_CIRCLESTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_CIRCLESTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateCircle>
+
+		<ChangeStateSquare tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Square.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_SQUARESTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_SQUARESTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateSquare>
+
+		<ChangeStateDiamond tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Diamond.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_DIAMONDSTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_DIAMONDSTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateDiamond>
+
+		<ChangeStateTriangle tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Triangle.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_TRIANGLESTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_TRIANGLESTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateTriangle>
+
+		<ChangeStateStar tier="4">
+			<IconPath>img://textures/ui/Behaviors/State_Star.dds</IconPath>
+			<ShortDescription>%[UI_BEHAVIORS_BLOCK_STARSTATE]</ShortDescription>
+			<LongDescription>%[UI_BEHAVIORS_BLOCK_STARSTATE_DESCRIPTION]</LongDescription>
+		</ChangeStateStar>
+	</StateMachine>
+</BlockLibrary>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IntegrationResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" scmError="false">
+  <ProjectName>lwoclient</ProjectName>
+  <ProjectUrl>http://DENNDWK251/ccnet</ProjectUrl>
+  <BuildCondition>ForceBuild</BuildCondition>
+  <Label>2180</Label>
+  <Parameters>
+    <NameValuePair name="$CCNetArtifactDirectory" value="C:\Program Files (x86)\CruiseControl.NET\server\lwoclient\Artifacts" />
+    <NameValuePair name="$CCNetBuildCondition" value="ForceBuild" />
+    <NameValuePair name="$CCNetBuildDate" value="2010-07-10" />
+    <NameValuePair name="$CCNetBuildTime" value="04:51:46" />
+    <NameValuePair name="$CCNetFailureUsers" value="System.Collections.ArrayList" />
+    <NameValuePair name="$CCNetIntegrationStatus" value="Unknown" />
+    <NameValuePair name="$CCNetLabel" value="2180" />
+    <NameValuePair name="$CCNetLastIntegrationStatus" value="Success" />
+    <NameValuePair name="$CCNetListenerFile" value="C:\Program Files (x86)\CruiseControl.NET\server\lwoclient\Artifacts\lwoclient_ListenFile.xml" />
+    <NameValuePair name="$CCNetModifyingUsers" value="System.Collections.ArrayList" />
+    <NameValuePair name="$CCNetNumericLabel" value="2180" />
+    <NameValuePair name="$CCNetProject" value="lwoclient" />
+    <NameValuePair name="$CCNetProjectUrl" value="http://DENNDWK251/ccnet" />
+    <NameValuePair name="$CCNetRequestSource" value="IntervalTrigger" />
+    <NameValuePair name="$CCNetUser" value="" />
+    <NameValuePair name="$CCNetWorkingDirectory" value="C:\Program Files (x86)\CruiseControl.NET\server\lwoclient\WorkingDirectory" />
+  </Parameters>
+  <WorkingDirectory>C:\Program Files (x86)\CruiseControl.NET\server\lwoclient\WorkingDirectory</WorkingDirectory>
+  <ArtifactDirectory>C:\Program Files (x86)\CruiseControl.NET\server\lwoclient\Artifacts</ArtifactDirectory>
+  <Status>Success</Status>
+  <StartTime>2010-07-10T04:51:46.8968061-06:00</StartTime>
+  <EndTime>2010-07-10T05:11:26.4510894-06:00</EndTime>
+  <LastIntegrationStatus>Success</LastIntegrationStatus>
+  <LastSuccessfulIntegrationLabel>2180</LastSuccessfulIntegrationLabel>
+  <FailureUsers />
+  <lastBuild>Success</lastBuild>
+</IntegrationResult>

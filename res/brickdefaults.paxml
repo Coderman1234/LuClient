@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PAXML versionMajor="1" versionMinor="0">
+	<Bag>
+		<Brick designID="2634" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="6211" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="24"/>
+		</Brick>
+		<Brick designID="9044" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="199"/>
+		</Brick>
+		<Brick designID="30152" materialID="0" quantity="0">
+      <SubMaterial surfaceID="0" materialID="40"/>
+      <SubMaterial surfaceID="1" materialID="26"/>
+		</Brick>
+		<Brick designID="30288" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="45406" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="60672" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="151"/>
+		</Brick>
+		<Brick designID="60673" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="151"/>
+		</Brick>
+		<Brick designID="60797" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="64230" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="24"/>
+		</Brick>
+		<Brick designID="64248" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="70358" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="26"/>
+		</Brick>
+		<Brick designID="73194" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="76029" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="76033" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="76040" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="199"/>
+		</Brick>
+		<Brick designID="76041" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="40"/>
+		</Brick>
+		<Brick designID="76247" materialID="0" quantity="0">
+			<SubMaterial surfaceID="1" materialID="24"/>
+		</Brick>
+	</Bag>
+</PAXML>
